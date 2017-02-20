@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" > 
+<head>
+      <link href="color1.css" rel="stylesheet"/>
+      <script type="text/javascript" src="prices.js">
+      </script>
+      <title>
+            Tutoring Business Order Services
+      </title>    
+      <meta charset="utf-8" />
+
+      <!-- This is where your link tag goes when linking to an external style sheet. -->
+ 
+      <!--This is the format you will use when entering JavaScript -->    
+      <script type="text/javascript">
+            /* <![CDATA[ */
+            /* ]]> */ 
+            function orderservice(){
+            var sessions= prompt ("enter the number of tutoring sessions you would like ", "numbers from 1-5");
+            sessions=parseInt(sessions)
+            if (sessions=="1"){
+                          window.alert("Total = $40");
+                        }
+            else if (sessions=="2")
+                             {window.alert("Total =$"+sessions*40);
+                             }
+            else if (sessions=="3")
+                     {window.alert("Total= $120");
+                  }
+            else if (sessions=="4")
+                  {window.alert("Total=$160");
+                  }
+            else if (sessions=="5")
+                  {window.alert("Total=$200, Check out our monthly prices.");
+                  }
+            else {
+                  window.alert('Invalid entry:');
+                  }
+            }
+      </script>         
+</head>  
+<body>      
+    <div id="col1">
+      <section><img src="solutionproblem.jpg" height="125px" width="200px" alt= "Solutions to Problems"></section>
+     <nav><ul>  
+            <li><a href="home.htm">Home &nbsp;</a></li>   
+            <li><a href="philosophy.htm">Philosophy &nbsp;</a></li>
+            <li><a href="pricing.htm">Services and Pricing &nbsp</a></li>
+            <li><a href="topics.htm">Topics and Skills</a></li>
+            <li><a href="contact.htm">Schedule and Contact Information</a></li>
+            </ul>
+      </nav>
+    </div>
+      <div id="col2">
+            <header class="container">
+                  <h1 class="floatc">LJWalker Tutoring</h1>
+             </header>
+           <div><p><strong>Choose the number of sessions</strong></p><p>
+            <button onclick="orderservice()">Tutoring Sessions</button>
+                                                       
+      </div>
+     </div>
+      
+      <footer id="contact"><div></r><p>Lindsay J Walker tutoring<i id="copyright">Copyright &copy; 2016 Lindsay Walker</i><br>
+      M.Ed. Science, Technology, Engineering, Mathematics Education<br>
+      Austin, Tx<br>
+      608-123-4567<span id="copyright"><a href="mailto:lindsay.walker2@g.austincc.edu">E-Mail </a></span></p>
+      </footer>
+      <!-- external javascript for validation -->  
+      <script type="text/javascript" src="../validation.js">
+      </script>
+
+     
+</body>
+</html>
