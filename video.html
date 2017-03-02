@@ -42,26 +42,22 @@ function openWin() {
   <nav id="nav">
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="video.html">Videos</a></li>
+      <li><span>Resources</span>
+	  <ul>
+          <li><a href="Open.html">Digital Resources</a></li>
+          <li><a href="video.html"><span>Walkerweb Videos</span></a></li>
+        </ul>
+      </li>
       <li> <span>Classes</span>
         <ul>
           <li><a href="math7.html">Math 7</a></li>
-          <li><a href="webDesign.html"><span>Web & Graphics &hellip;</span></a>
+          <li><a href="webDesign.html"><span>Web & Graphic Design</span></a></li>
 			<li><a href="gamesAnimation.html">Animation & Game Design</a></li>
-            <!-- <ul>
-              <li><a href="https://classroom.google.com/c/MTkzOTIzNjU4MVpa">Period 1</a></li>
-              <li><a href="https://classroom.google.com/c/MTkzODM4ODk3MVpa">Period 4</a></li>
-              <li><a href="https://classroom.google.com/c/MTkzODA3NTg4MFpa">Period 6</a></li>
-            </ul> -->
-          </li> 
         </ul>
       </li>
       <li><a href="CurriculumPort.html">Curriculum Portfolio</a>
               <ul>
                 <li><a href="unit1WG.html">Web & Graphics</a></li>
-                <!-- <li><a href="">Math 8</a></li> 
-                <li><a href="gamesAnimation.html"><span>Animation & Game Design</span></a>
-                <li><a href=""><span>Math 7</span></a> -->
               </ul>
       </li>
      <!-- <li><a href="right-sidebar.html">Academic Portfolio</a></li> -->
@@ -82,7 +78,33 @@ function openWin() {
           <header>
             <h2><a href="#">Video Archive</a></h2>
             <span class="byline"> A collection of self-created instructional videos created as a part of curriculum and classroom instruction </span> </header>
-          <div style="background-image:images/pic06.jpg">
+                 
+		  <div class="">
+            <a href="#" class="image featured">
+              <video width="640" height="480" controls>
+                <source src="Videos/AnimateCC_Drawing_Tools.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video></a>
+          </div>
+          <p><h3> Drawing With Adobe Animate CC</h3>The video above is A quick overview of the pencil tool, brush tool, paint brush tool, pen tool, paint bucket tool, color picker, brush picker.  Also point out some important differences between merge shapes and object shapes  </p>
+		  
+		  <div class="">
+            <a href="#" class="image featured">
+              <video width="640" height="480" controls>
+                <source src="Videos/AnimateCC_Shape_TweensGraphicSymbols.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video></a>
+          </div>
+          <p><h3> Animate CC Shape Tweens and Graphic Symbols</h3>The video above reviews the basics of creating a shpe tween and graphic symbol to create an animate in Adobe Animate CC</p>
+		  <div class="">
+            <a href="#" class="image featured">
+              <video width="640" height="480" controls>
+                <source src="Videos/AnimateCC_GraphicSymbols_IllustratorObjects.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video></a>
+		  </div>
+          <p><h3> Animate CC Graphic Symbols, Importing Objects From Illustrator</h3>The video above demonstrates how to import objects from Adobe Illustrator and create graphic symbols using objects</p>
+		  <div class="">
             <a href="#" class="image featured">
               <video width="640" height="480" controls>
                 <source src="Videos/Separate_Css.mp4" type="video/mp4">
@@ -90,8 +112,6 @@ function openWin() {
               </video></a>
           </div>
           <p><h3> Separate HTML and CSS</h3>The video above has instruction on taking an HTML page with styling embedded in "style" tags, creating a separate CSS document and linking the HTML page to the newly created CSS document. </p>
-        </article>
-    
           <div style="">
             <a href="#" class="image featured">
               <video width="640" height="480" controls>
@@ -99,7 +119,7 @@ function openWin() {
                 Your browser does not support the video tag.
               </video></a>
           </div>
-          <p><h3>Using Flex-box </h3>The video has resources and examples of the use of flex-boxes and properties you can use to improve your layout and make it more responsive</p>
+          <p><h3>Using Flex-box </h3>The video above has resources and examples of the use of flex-boxes and properties you can use to improve your layout and make it more responsive</p>
         </article>
       </div>
       
@@ -183,29 +203,11 @@ function openWin() {
 <!--Source code for Footer on all pages starts here through until end-->
 
 <!-- InstanceEndEditable -->
-    
+   <!-- only for non-class pages --> 
 <div id="footer">
   <div class="container" width=100%>
     <div class="row" style="margin-left:0px">
-
-  <section class="4u"style="background-image: url(images/pic03.jpg); background-size:cover; text-align:center;">
-        <header>
-          <h3><ul>Links to Google Drive </ul></h3>
-        </header>
-        <ul class="divided">
-          <li>
-            <article class="tweet"><a  href="https://drive.google.com/open?id=0B9Gy8gxOcAwHLTFhcWRFZFQ0bkk"> Web & Graphic Design<span class="timestamp"><br> Updated Fall 2016 </a> </span> </article>
-          </li>
-          <li>
-            <article class="tweet"><a href="https://drive.google.com/open?id=0B5e_Q3sNWN29MlZNQjZ6bjdELVE"> Animation & Game Design  <span class="timestamp">&nbsp;</span></a></article>
-          </li>
-          <li>
-            <article class="tweet"><a href="https://drive.google.com/open?id=0B9Gy8gxOcAwHNGtqdW1Fc0VFdGM"> Math 7<span class="timestamp">&nbsp; period 7</span></a></article>
-          </li>
-        </ul>
-      </section>
-  
-      <section class="4u">
+      <section class="4u" style="width:30%; margin-left: 35%;">
         <ul class="divided">
           <li>
             <article class="post stub">
@@ -233,27 +235,7 @@ function openWin() {
           </li>
         </ul>
       </section>
-
-      <section class="4u" style="background-image: url(images/pic07.jpg); background-size: cover;">
-        <header>
-          <h3><ul>Links to Google Classroom </ul></h3>
-        </header>
-        <ul class="divided">
-          <li>
-            <article class="tweet"><a  href="https://classroom.google.com/c/Mzg1NzY4MDM5OFpa">&nbsp; Animation & Game Design <span class="timestamp"> period 1 </a> </span> </article>
-          </li>
-          <li>
-            <article class="tweet"><a href="https://classroom.google.com/c/Mzg1OTM0NTg2MVpa">&nbsp; Animation & Game Design <span class="timestamp"> period 4</span></a></article>
-          </li>
-          <li>
-            <article class="tweet"><a href="https://classroom.google.com/c/Mzg1OTI3MDY2NFpa">&nbsp; Animation & Game Design <span class="timestamp"> period 6</span></a></article>
-          </li>
-          <li>
-            <article class="tweet"><a href="https://classroom.google.com/c/MTkzOTAyMDQ2NFpa">&nbsp; Math 7<span class="timestamp"> period 7</span></a></article>
-          </li>
-        </ul>
-      </section>
-
+	  
     </div>
   </div>
     <hr>
