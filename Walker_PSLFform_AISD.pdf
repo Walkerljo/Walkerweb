@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html><!-- InstanceBegin template="/Templates/Class_Pages.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Student Work</title>
+<!-- InstanceEndEditable -->
+<meta charset="utf-8">
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">
+<!--[if lte IE 8]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.dropotron.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/skel-panels.min.js"></script>
+<script src="js/init.js"></script>
+<script>
+function openWin() {
+    window.open("SpaceExploration/index.html");
+}
+</script>
+<noscript>
+<link rel="stylesheet" href="css/skel-noscript.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style-noscript.css">
+</noscript>
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="css/ie8.css">
+<![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+<body class="right-sidebar">
+<div id="header"><!-- InstanceBeginEditable name="Header" -->
+  <div class="inner">
+    <header>
+      <h1><a href="#" id="logo">Walkerweb</a></h1>
+    </header>
+    </div>
+    <!-- InstanceEndEditable -->
+ <!--Source code for Header on all pages begins here-->
+  <nav id="nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><span>Resources</span>
+	  <ul>
+          <li><a href="Open.html">Digital Resources</a></li>
+          <li><a href="video.html"><span>Walkerweb Videos</span></a></li>
+        </ul>
+      </li>
+      <li> <span>Classes</span>
+        <ul>
+          <li><a href="math7.html">Math 7</a></li>
+          <li><a href="webDesign.html"><span>Web & Graphic Design</span></a></li>
+			<li><a href="gamesAnimation.html">Animation & Game Design</a></li>
+        </ul>
+      </li>
+      <li><a href="CurriculumPort.html">Curriculum Portfolio</a>
+              <ul>
+                <li><a href="unit1WG.html">Web & Graphics</a></li>
+              </ul>
+      </li>
+     <!-- <li><a href="right-sidebar.html">Academic Portfolio</a></li> -->
+      <li><a href="TechPort.html">Technology Portfolio</a></li>
+    </ul>
+  </nav>
+</div>
+<!--Source code for Header on all pages ends here-->
+</div>
+<!-- InstanceBeginEditable name="Main Body" -->
+<div class="wrapper style1">
+  <div class="container">
+    <div class="row">
+      <div>
+        <article >
+          <header>
+            <h2><a href="#">Student Work</a></h2>
+		  </header>
+		  <h2 class="byline">Java applet Video Game- Save Fred</h2>
+		  <section style="display:inline-flex; flex-wrap:wrap;">
+					<p>Original code by Steven Zheng created using Java programming language and Eclipse Neon IDE. Graphics and planning by Cash Cunningham, Bubby Baggish, Austin He, & Justin He.</p>
+				<h3>Save Fred</h3>
+				<div style="display:inline; max-width:500px; min-width: 300px;">
+					<img src="images/Fred_level_example.png" alt="Save Fred Game" style="height:250px; width:400px; display:inline;" onclick="">
+					<p></p>
+				</div>
+				<div><h3>Instructions</h3>
+					<ol style="max-width:500px; min-width:200px;">
+						<li>Step 1) <a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Click here to download Java SE Runtime Environment 8</a></li>
+						<li>Step 2) Launch the Save Fred Game</li>
+						<li>	<article style="padding-bottom: 20px;">   <!-- ... -->
+							<script src=
+							 "https://www.java.com/js/deployJava.js"></script>
+						   <div style="padding:10px;">
+						   <script>
+							   // using JavaScript to get location of JNLP
+							   // file relative to HTML page
+							   var dir = location.href.substring(0, location.href.lastIndexOf('/')+1);
+							   var url = dir + "dynamictree_webstart.jnlp";
+							   deployJava.createWebStartLaunchButton('https://s3.amazonaws.com/walkerweb.me/save-fred/save-fred.jnlp', '1.7.0');
+						   </script></li>
+						<li>Step 3) Change the secrity setting so Java won't prevent running this game;</li>
+					</ol>
+				</div>
+			</section>
+	</article>
+	</div>
+    </div>
+</div>
+ <div style="padding-bottom: 20px;">
+		<header>
+        <h2 style="align-items:center; display:flex;" class="byline"> Space Exploration Website</h2>
+		</header>
+          <p>Website created for the Technology Student Association Competition, Spring 2017
+		  Created by; Ellie Cohen, Weiyi Huang, Parker Cooke </p>
+		  <img src="SpaceExploration/sesite.png"  onclick="openWin()" style="width: 500px;" >
+      </div>
+<!--    <div class="row">
+      <article class="4u special">
+		<header>
+                  <h3><a href="#">Photoshop</a></h3>
+
+        </header>
+        <p> Some examples of photo editing techniques, combining images from the web.  Created using layering, masking, adjustments, and more.</p>
+      <a href="#" class="image featured"><img src="images/WalkerL_muddyjeanpool.jpg" alt="Mussy Jeanpool">
+	  <a href="#" class="image featured"><img src="images/water-cloud_rays.png" alt="water and cloud rays" style="height:350px; width:auto;">
+      </article>
+	    
+      <article class="4u special">
+        <header>
+          <h3><a href="#">Animate (formerly flash)</a></h3>
+        </header>
+        <p>
+          Animations and graphic symbols created on several timeslines using various types of animation and movement.  Animate offers the ability to create animations and graphics in many formats, including the interactive HTML5 canvas and movie files
+        </p>
+		<img src="Videos/Samba-Parade.gif" alt="samba parade" width ="100%">
+		<p><font size="1">Dancers edited using images licensed under a creative commons license. graphic credit: pixabay.com</font></p>
+        
+      </article>
+      
+      <article class="4u special">
+        <header>
+          <h3><a href="#">Illustrator</a></h3>
+        </header>
+        <p>Custom vector graphics for a variety of print mediums, or scalable web graphics</p>
+		 <a href="#" class="image featured"><img src="images/TSA_Poster.svg" alt="TSA poster" width= "90%"></a>
+        <img src="images/Logo_Walker.svg" alt="Walker.svg" width="85%" height="150px" style="overflow:hidden; display:inline; align:left">
+		<img src="images/Viszla_logo_card.svg" alt="puppy logo" width="85%" height="150px" style="overflow:hidden; display:inline;">
+      </article>
+    </div>
+  </div>
+</div>
+
+<!-- InstanceEndEditable -->
+  
+	
+<div id="footer">
+  <div class="container" width=100%>
+    <div class="row" style="margin-left:0px">
+      <section class="4u" style="width:30%; margin-left: 35%;">
+        <ul class="divided">
+          <li>
+            <article class="post stub">
+              <header>
+                <h3 style="color:#FFCCCC"><a href="index.html">Home</a></h3>
+              </header>
+          </li>
+          <li>
+            <article class="post stub">
+              <header>
+                <h3 style="color:#FFCCCC"><a href="video.html">Videos</a></h3>
+              </header>
+          </li>
+          <li>
+            <article class="post stub">
+              <header>
+                <h3 style="color:#FFCCCC"><a href="CurriculumPort.html">Curriculum and Assessments</a></h3>
+              </header>
+          </li>
+          <li>
+            <article class="post stub">
+              <header>
+                <h3 style="color:#FFCCCC"><a href="TechPort.html">Technology</a></h3>  
+              </header>
+          </li>
+        </ul>
+      </section>
+	  
+    </div>
+  </div>
+    <hr>
+    <div class="row">
+      <div class="12u">
+        <section class="contact">
+          <header>
+            <h3>Questions?</h3>
+          </header>
+          <p>You can contact me about any <i>school related matters</i> at lwalker@eansisd.org</br>
+          For anything not directly related to school </br>(i.e. based on any of the other work and portfolios I have posted)</br>
+          contact me at lindsay_walker@utexas.edu</p>
+        </section>
+        <div class="copyright">
+          <ul class="menu">
+            <li>&copy; Lindsay Walker M.Ed. All rights reserved.</li>
+            <li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<!-- InstanceEnd --></html>
