@@ -2,7 +2,7 @@
 <html><!-- InstanceBegin template="/Templates/Class_Pages.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Web & Graphics Unit 1</title>
+<title>Student Work</title>
 <!-- InstanceEndEditable -->
 <meta charset="utf-8">
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">
@@ -71,37 +71,45 @@ function openWin() {
 <div class="wrapper style1">
   <div class="container">
     <div class="row">
-      <div class="12u skel-cell-mainContent" id="content">
-        <article id="main" class="special">
+      <div>
+        <article >
           <header>
             <h2><a href="#">Student Work</a></h2>
 		  </header>
-            <h3 class="byline">Java applet Video Game</h3
-            <p>Original code by Steven Zheng created with JAVA. Graphics and planning by Cash Cunningham, Bubby Baggish</p>
-                <figure style="display:flex-box;">
-                  
-                    <h2>Save Fred</h2><img src="images/Fred_level_example.png" alt="Save Fred Game" style="height:150px; width:400px; display:inline;" onclick=window.open("")></a>
-					<h3>Please use Mozilla Firefox or Safari web browsers</h3>
-				</figure>
-			<article style="padding-bottom: 20px;">   <!-- ... -->
-		 <script src=
-		  "https://www.java.com/js/deployJava.js"></script>
-		<div style="padding:10px;">
-		<script>
-			// using JavaScript to get location of JNLP
-			// file relative to HTML page
-			var dir = location.href.substring(0, location.href.lastIndexOf('/')+1);
-			var url = dir + "dynamictree_webstart.jnlp";
-			deployJava.createWebStartLaunchButton('https://s3.amazonaws.com/walkerweb.me/save-fred/save-fred.jnlp', '1.7.0');
-		</script> 
-
-	  </div>
-			</article>
+		  <h2 class="byline">Java applet Video Game- Save Fred</h2>
+		  <section style="display:inline-flex; flex-wrap:wrap;">
+					<p>Original code by Steven Zheng created using Java programming language and Eclipse Neon IDE. Graphics and planning by Cash Cunningham, Bubby Baggish, Austin He, & Justin He.</p>
+				<h3>Save Fred</h3>
+				<div style="display:inline; max-width:500px; min-width: 300px;">
+					<img src="images/Fred_level_example.png" alt="Save Fred Game" style="height:250px; width:400px; display:inline;" onclick="">
+					<p></p>
+				</div>
+				<div><h3>Instructions</h3>
+					<ol style="max-width:500px; min-width:200px;">
+						<li>Step 1) <a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Click here to download Java SE Runtime Environment 8</a></li>
+						<li>Step 2) Launch the Save Fred Game</li>
+						<li>	<article style="padding-bottom: 20px;">   <!-- ... -->
+							<script src=
+							 "https://www.java.com/js/deployJava.js"></script>
+						   <div style="padding:10px;">
+						   <script>
+							   // using JavaScript to get location of JNLP
+							   // file relative to HTML page
+							   var dir = location.href.substring(0, location.href.lastIndexOf('/')+1);
+							   var url = dir + "dynamictree_webstart.jnlp";
+							   deployJava.createWebStartLaunchButton('https://s3.amazonaws.com/walkerweb.me/save-fred/save-fred.jnlp', '1.7.0');
+						   </script></li>
+						<li>Step 3) Change the secrity setting so Java won't prevent running this game;</li>
+					</ol>
+				</div>
+			</section>
+	</article>
+	</div>
     </div>
 </div>
  <div style="padding-bottom: 20px;">
 		<header>
-        <h3 style="align-items:center; display:flex;"> Space Exploration Website</h3>
+        <h2 style="align-items:center; display:flex;" class="byline"> Space Exploration Website</h2>
 		</header>
           <p>Website created for the Technology Student Association Competition, Spring 2017
 		  Created by; Ellie Cohen, Weiyi Huang, Parker Cooke </p>
