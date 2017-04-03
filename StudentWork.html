@@ -77,29 +77,26 @@ function openWin() {
             <h2><a href="#">Student Work</a></h2>
 		  </header>
 		  <h2 class="byline">Java applet Video Game- Save Fred</h2>
-		  <section style="display:inline-flex; flex-wrap:wrap;">
+		  <section style="display:flex; flex-wrap:wrap;">
 					<p>Original code by Steven Zheng created using Java programming language and Eclipse Neon IDE. Graphics and planning by Cash Cunningham, Bubby Baggish, Austin He, & Justin He.</p>
-				<h3>Save Fred</h3>
-				<div style="display:inline; max-width:500px; min-width: 300px;">
-					<img src="images/Fred_level_example.png" alt="Save Fred Game" style="height:250px; width:400px; display:inline;" onclick="">
+				
+				<div style="padding-right:50px;">
+					<h3>Save Fred</h3><br>
+					<img src="save-fred/menu.png" alt="Save Fred Game" style="max-width:300px; min-width:150px;">
 					<p></p>
 				</div>
-				<div><h3>Instructions</h3>
+				<div id="savefred">
+					<h3>Instructions For Judges</h3>
 					<ol style="max-width:500px; min-width:200px;">
-						<li>Step 1) <a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Click here to download Java SE Runtime Environment 8</a></li>
-						<li>Step 2) Launch the Save Fred Game</li>
+						<li>1) <a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Click here to download Java SE Runtime Environment 8</a></li>
+						<li>2) Launch the Save Fred Game</li>
 						<li>	<article style="padding-bottom: 20px;">   <!-- ... -->
-							<script src=
-							 "https://www.java.com/js/deployJava.js"></script>
-						   <div style="padding:10px;">
-						   <script>
-							   // using JavaScript to get location of JNLP
-							   // file relative to HTML page
-							   var dir = location.href.substring(0, location.href.lastIndexOf('/')+1);
-							   var url = dir + "dynamictree_webstart.jnlp";
-							   deployJava.createWebStartLaunchButton('https://s3.amazonaws.com/walkerweb.me/save-fred/save-fred.jnlp', '1.7.0');
-						   </script></li>
-						<li>Step 3) Change the secrity setting so Java won't prevent running this game;</li>
+							<a href="save-fred/Save-Fred.jar">
+								<img src="images/Fred_level_example.png" alt="Save Fred Game" style="height:100px; width:auto;"><br>
+								Click here to download and launch the game.
+							</a></li>
+						<li>3) <a href="https://drive.google.com/open?id=0B5e_Q3sNWN29YUxVcjZGWmtVdW8">Link to Documentation for Save Fred Game</a>
+						
 					</ol>
 				</div>
 			</section>
@@ -113,7 +110,7 @@ function openWin() {
 		</header>
           <p>Website created for the Technology Student Association Competition, Spring 2017
 		  Created by; Ellie Cohen, Weiyi Huang, Parker Cooke </p>
-		  <img src="SpaceExploration/sesite.png"  onclick="openWin()" style="width: 500px;" >
+		  <img src="SpaceExploration/sesite.png"  onclick="openWin()" style="width: 500px;" id="spaceexplor" >
       </div>
 <!--    <div class="row">
       <article class="4u special">
