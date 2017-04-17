@@ -24,6 +24,7 @@ function openWin() {
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/style-noscript.css">
 </noscript>
+
 <!--[if lte IE 8]>
 <link rel="stylesheet" href="css/ie8.css">
 <![endif]-->
@@ -77,7 +78,32 @@ function openWin() {
       <div>
         <article >
           <header>
-            <h2><a href="#">Student Work</a></h2>
+			<!-- script for bubble letters-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
+  </head>
+  <body>
+    <canvas id="myCanvas" height="300" width="500"></canvas>
+    <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/bubbles.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+			<script>
+				var red = [0, 100, 63];
+var orange = [40, 100, 60];
+var green = [75, 100, 40];
+var blue = [196, 77, 55];
+var purple = [280, 50, 60];
+
+var myName = "Student Work!";
+letterColors = [red, orange, green, blue, purple]
+if ( 10% 4 < 1){ 
+    bubbleShape = "square";}
+else {
+    bubbleShape = "circle";
+}
+drawName(myName, letterColors);
+bounceBubbles();
+				</script>
+            <h2><a href="#">Technology Student Association Projects</a></h2>
 		  </header>
 		  <h2 class="byline">Java applet Video Game- Save Fred</h2>
 		  <section style="display:flex; flex-wrap:wrap;">
@@ -99,6 +125,7 @@ function openWin() {
 								Click here to download and launch the game.
 							</a></li>
 						<li>3) <a href="https://drive.google.com/open?id=0B5e_Q3sNWN29YUxVcjZGWmtVdW8">Link to Documentation for Save Fred Game</a>
+						<li>4) <a href="https://github.com/yz91024/Save-Fred-Game">Link to Source Code on Github</a>
 						
 					</ol>
 				</div>
@@ -126,6 +153,15 @@ function openWin() {
 		  <iframe src="https://docs.google.com/presentation/d/1bKvBIphCEjAtvBBkei_JYHun16Vsrzba2nfAuk6RkPE/embed?start=true&loop=false&delayms=3000"
 				  frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"
 				  webkitallowfullscreen="true"></iframe>
+		  
+	</div>
+  <div style="padding-bottom: 20px;">
+		<header>
+        <h2 style="align-items:center; display:flex;" class="byline"> Inventions & Innovations</h2>
+		</header>
+          <p><h3>Sanctus</h3> A Water Filtration system designed for Afghanistan
+		  created by Michael Zheng, Xuechen Yin, Jeffrey Pan, Frank Wei, & Jason Luo for the Technology Student Associaiton Competition, Spring 2017</p>
+		  <iframe src="https://docs.google.com/presentation/d/1wnYlkC2P6UlcQPbjWVsFedQouzbvSuIBzOKNbi4zq-4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 		  
 	</div>
 <!--    <div class="row">
