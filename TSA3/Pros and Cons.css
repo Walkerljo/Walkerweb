@@ -1,0 +1,20 @@
+            
+
+body {
+  background: #25303B;
+}
+ .pool {
+  display: flex;
+ }
+ .fire {
+  width: 500px;
+ }
+ .ball {
+  width: 30%;
+ }
+ .flame {
+  width: 30%;
+ }
+ .tub {
+  width: 30%;
+ }
