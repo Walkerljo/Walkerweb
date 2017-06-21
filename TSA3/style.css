@@ -1,0 +1,213 @@
+     body {
+            text-align:left;
+            background-image: url("space1.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+           }
+          /* section{
+                  display:flex;
+                flex: center; 
+                  align-items: top;
+            }*/
+       footer {
+          position:fixed;
+          left:0px;
+          bottom:0px;
+          height:30px;
+          width:100%;
+          background:#999;
+       }
+           header{
+            background-color: rgba(75, 135, 255, 0.75);
+            /*opacity: .25;*/
+            text-align: center;
+            width: cover;
+            padding: 10px;
+           }
+           h1{ 
+              color: #FFFFFF;
+           }
+           h2{ 
+              color: #FFFFFF;
+           }
+           h3{ 
+              color: black;
+           }
+           p{ 
+              color: black;
+           }
+           div{
+            background-color: rgba(75, 135, 255, 0.75);
+            float: left;
+            
+            padding: 10px;
+            
+           }
+           b{
+              color: #FF0000;
+           }
+           a{
+       color: gray;
+       font-size: 24px;
+}
+ .flexy {
+  display: flex;
+  flex-direction: row;
+ 
+  
+ }
+              
+              
+   .page{
+       background-color: #FF0000;
+       width: 10%;
+       position: relative;
+       left: 45%;
+       margin: 15px;
+       text-align: center;
+       
+      
+   }
+        /*section{
+              background: rgba(213, 213, 246, 0.750);
+              margin; 20px;
+         
+              
+           }
+       div{
+              margin; auto;
+              text-align: center;
+           }
+           */
+       .text{
+              color: black;
+           }
+           
+
+
+.BioParentContainer{
+            display: flex;
+            height: auto;
+            width: 100%;
+            justify-content: space-around;
+            background-color: rgba(75, 135, 255, 0.75);
+            
+
+          }
+       .Parker{
+       min-width: 150px;
+       float: left;
+       background-color: white;
+       margin: 4px;
+            
+          }
+          .Weiyi{
+              min-width: 150px;
+              float: left;
+           background-color: white;
+           margin: 4px;
+          }
+          .Risa{
+              min-width: 150px;
+            background-color: white;
+            margin: 4px;
+          }
+          .Ellie{
+              min-width: 150px;
+            background-color: white;
+            margin: 4px;
+          }
+          
+          
+.nav{
+      display: flex;
+       height: auto;
+       width: 100%;
+       justify-content: space-around;
+       background-color: rgba(75, 135, 255, 0.75);
+       margin-top: 20px;
+       margin-bottom: 20px;
+       
+}
+.Home{
+      padding: 15px;
+      color: red;
+      background-color: white;
+      margin: 4px;
+}
+
+.Privitization{
+       padding: 15px;
+      color: red;
+      background-color: white;
+      margin: 4px;
+}
+
+.SpaceVehicles{
+     padding: 15px;
+        color: red;
+      background-color: white;
+      margin: 4px;
+}
+
+.Careers{
+    padding: 15px;
+      color: red;
+      background-color: white;
+      margin: 4px;
+}
+
+.ProsAndCons{
+    padding: 15px;
+       color: red;
+      background-color: white;
+      margin: 4px;
+}
+
+.Interviews{
+    padding: 15px;
+      color: red;
+      background-color: white;
+      margin: 4px;
+       
+}
+
+.Resources{
+     padding: 15px;
+        color: red;
+      background-color: white;
+      margin: 4px;
+       
+}
+
+.a{
+       color: rgba(75, 135, 255, 0.75);
+       height: 75px;
+       float: left;
+}
+
+
+.space{
+      background: none;
+      width: 33%;
+     
+}
+
+.border{
+      background: none;
+      width: 100%;
+      display: flex;
+}
+
+           
+           
+          
+           
+           
+           
+           
+           
+           
+           
